@@ -1,0 +1,84 @@
+.text-red {
+	color: #DD0303;
+}
+
+.body {
+	font-family: 'Nunito', sans-serif;
+}
+
+.btn {
+	border-radius: .50rem;
+}
+
+.form-control {
+	display: block;
+	width: 100%;
+	height: calc(1.5em + .75rem + 2px);
+	padding: .375rem .75rem;
+	font-size: 1rem;
+	font-weight: 400;
+	color: #6e707e;
+	border: 0px;
+	background-color: #F4F5F7;
+	border-radius: .50rem;
+}
+
+.form-control:focus {
+	color: #6e707e;
+	background-color: #F4F5F7;
+	box-shadow: none;
+}
+
+.form-control::-webkit-input-placeholder {
+	color: #6e707e;
+	opacity: 1
+}
+
+.form-control::-moz-placeholder {
+	color: #6e707e;
+	opacity: 1
+}
+
+.form-control:-ms-input-placeholder {
+	color: #6e707e;
+	opacity: 1
+}
+
+.form-control::-ms-input-placeholder {
+	color: #6e707e;
+	opacity: 1
+}
+
+.form-control::placeholder {
+	color: #6e707e;
+	opacity: 1
+}
+
+.separator {
+	display: flex;
+	align-items: center;
+	text-align: center;
+}
+
+.separator::before,
+.separator::after {
+	content: '';
+	flex: 1;
+	border-bottom: 1px solid lightgray;
+}
+
+.separator::before {
+	margin-right: .25em;
+}
+
+.separator::after {
+	margin-left: .25em;
+}
+
+.field-icon {
+	float: right;
+	margin-right: 10px;
+	margin-top: -26px;
+	position: relative;
+	z-index: 2;
+}
